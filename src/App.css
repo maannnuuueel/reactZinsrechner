@@ -1,0 +1,59 @@
+.app {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+
+  border-radius: 0.5em;
+  border: 0.1em solid #9999ff;
+
+  overflow: hidden;
+
+  height: fit-content;
+  width: fit-content;
+
+  padding: 0.7em;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.inputcomp {
+  background-color: #9999ff;
+  margin-bottom: 1em;
+}
+
+.displaycomp {
+  width: 100%;
+}
+
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+
+table {
+  border-spacing: 0px;
+  border: 0.1em solid #9999ff;
+}
+
+td,
+th {
+  width: calc(100%/3);
+  height: 2em;
+
+  text-align: center;
+  line-height: 2em;
+
+  border: 0.1em solid #9999ff;
+}
